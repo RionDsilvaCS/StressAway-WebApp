@@ -61,13 +61,12 @@
     z-index: -1;
   }
   
-  
 
   .container {
     max-width: 50rem;
-    margin-left: 58px;
-    margin-top: 18px;
-    margin-right: 48px;
+    margin-left: 3.5%;
+    margin-top: 1%;
+    margin-right: 4.5%;
     padding-inline: 2rem;
     color: white;    
   }
