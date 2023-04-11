@@ -12,9 +12,8 @@
 
 <style>
     .appdiv{
-    padding-top: 200px;
-    padding-left: 0px;
-    padding-bottom: 200px;
+    padding-top: 15%;
+    padding-bottom: 15%;
     
 }
     .app-photo{

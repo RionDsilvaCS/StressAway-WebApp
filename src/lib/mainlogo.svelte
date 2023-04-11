@@ -10,7 +10,11 @@
 </div>
 <style>
     .logodiv{
-    padding-top: 100px;
-    padding-left: 500px;
+    padding-top: 7%;
+    padding-left: 35%;
+}
+.main-photo{
+    width :50% ;
+    height : auto;
 }
 </style>
