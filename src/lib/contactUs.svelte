@@ -142,7 +142,7 @@
   }
   .name{
     font-size: 26px;
-    font-weight:lighter;
+    font-weight:bold;
   }
   .info{
     padding-left: 50px;
@@ -152,6 +152,12 @@
     padding-top: 20px;
     padding-left: 10px;
   }
+  .main-photo{
+    transition: transform .2s; /* Animation */
+  }
+  .main-photo:hover{
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
   .job{
     font-size: 20px;
   }
