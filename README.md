@@ -1,5 +1,5 @@
 # Welcome To StressAway
-![banner](StressAwayBanner.png)
+![banner](ReadmeBanner.png)
 ----
 ### What is StressAway🏥?
 
@@ -62,12 +62,17 @@ StressAway is designed to help individuals manage and reduce their stress levels
 ### Credits💫
 
 >GitHub [@RionDsilvaCS](https://github.com/RionDsilvaCS)  ·  Linkedin [@Rion Dsilva](https://www.linkedin.com/in/rion-dsilva-043464229/)
+
 Android Developer📱
 
->GitHub [@puneethx](https://github.com/puneethx)  ·  Linkedin [@Puneeth Reddy](https://www.linkedin.com/in/puneeth-reddy-75069824b/)
+
+>GitHub [@puneethx](https://github.com/puneethx)        ·  Linkedin [@Puneeth Reddy](https://www.linkedin.com/in/puneeth-reddy-75069824b/)
+
 Web Developer🌐
 
->GitHub [@Aniesh04](https://github.com/Aniesh04)  ·  Linkedin [@Aniesh Reddy Gundam](https://www.linkedin.com/in/aniesh-reddy-gundam-016365232/)
+
+>GitHub [@Aniesh04](https://github.com/Aniesh04)        ·  Linkedin [@Aniesh Reddy Gundam](https://www.linkedin.com/in/aniesh-reddy-gundam-016365232/)
+
 Web Developer🌐
 
 ---
