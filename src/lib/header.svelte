@@ -24,6 +24,9 @@
             <a href = "/contactus" class="nav-item">
                 <a href="/contactus" class="nav-link">Contact Us</a>
             </a>
+            <a href = "/login" class="nav-item">
+              <a href="/login" class="nav-link">LogIn/SignUp</a>
+            </a>
             <div class="active"></div>
         </ul>
 </div>
@@ -121,6 +124,9 @@
   }
   .nav-item:nth-child(4):hover ~ .active {
     transform: translateX(24rem);
+  }
+  .nav-item:nth-child(5):hover ~ .active {
+    transform: translateX(32rem);
   }
   .container {
     max-width: 110rem;

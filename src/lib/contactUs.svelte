@@ -60,7 +60,7 @@
 </nav>
 
 
-
+<nav class = "flex">
 <div class="journaltxt1">
   <nav class="container2">
       <div class = "imag">
@@ -87,6 +87,7 @@
   
 </div>
 </div>
+</nav>
 
 
 
@@ -150,7 +151,7 @@
     transition: transform .2s; /* Animation */
   }
   .main-photo:hover{
-  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
   .job{
     font-size: 20px;
