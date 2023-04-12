@@ -7,14 +7,13 @@
     import Footer from "$lib/footer.svelte";
 </script>
 
-<main>
+
 <Header/>
 <Everyday/>
 <Text/>
 <Music/>
 <Movie/>
 <Footer/>
-</main>
 
 
 
