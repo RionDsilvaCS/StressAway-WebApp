@@ -1,4 +1,6 @@
 <script>
+// @ts-nocheck
+
 
 
     import moviePic1 from "$lib/assets/movpic1.png"

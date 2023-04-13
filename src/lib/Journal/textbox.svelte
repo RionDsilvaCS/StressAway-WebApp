@@ -118,7 +118,7 @@
   font-weight: 700;
   font-size: 15px;
   background-color: #ffffff;
-  padding: 15px 60px;
+  padding: 15px 50px;
   border-radius: 10px;
   box-shadow: 0 5px 15px rgba(0,0,0,0.20);
   font-family: "Poppins",sans-serif;
@@ -136,7 +136,7 @@
   left: 0;
   top: 0;
   height: 490%;
-  width: 140%;
+  width: 150%;
   background: #89fa9d;
   -webkit-transition: all .5s ease-in-out;
   transition: all .5s ease-in-out;

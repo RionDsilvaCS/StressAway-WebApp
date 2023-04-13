@@ -153,6 +153,7 @@
   position: relative; 
   color: #1e3b41;
   z-index: 1;
+  padding-left: 40%;
 }
 
 .saveit:after {
@@ -215,6 +216,7 @@
 	.options {
 		padding: 14px 0;
 		overflow: hidden;
+        padding-bottom: 20%;
 	}
 	.options > p {
 		position: relative;

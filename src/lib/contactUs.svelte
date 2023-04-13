@@ -8,7 +8,7 @@
     Contact Us
 </p>
 
-<nav class = "flex">
+<div class = "flex">
   <div class="journaltxt">
     <nav class="container2">
       <div class = "imag">
@@ -57,11 +57,9 @@
       </div>
     </nav>
   </div>
-</nav>
 
 
-<nav class = "flex">
-<div class="journaltxt1">
+<div class="journaltxt">
   <nav class="container2">
       <div class = "imag">
         <img src={Avatar2} class="main-photo"alt="logo">
@@ -87,8 +85,7 @@
   
 </div>
 </div>
-</nav>
-
+</div>
 
 
 
@@ -101,28 +98,20 @@
       .journaltxt{
   background-color: rgb(214, 255, 221);
   height: 250px;
-  width: 600px;
+  width: 500px;
   border-radius: 25px;
-  margin-left: 100px;
-  margin-bottom: 30px;  
-  margin-top:20px;
+  margin-left: 7%;
+  margin-bottom: 3%;  
+  margin-top:3%;
   font-family: "Poppins",sans-serif;
-  }
-  .journaltxt1{
-  background-color: rgb(214, 255, 221);
-  height: 250px;
-  width: 600px;
-  border-radius: 25px;
-  margin-left: 100px;
-  margin-bottom: 90px;  
-  margin-top:20px;
-  font-family: "Poppins",sans-serif;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.10);
   }
 
   .fl{
     font-family: "Poppins",sans-serif;
     font-size: 30px;
-    padding-left: 100px;
+    color: #63CCAB;
+    padding-left: 13%;
     font-weight: bold;
   }
   img {
@@ -134,18 +123,20 @@
     padding-left: 25px;
     padding-top: 25px;
     display: flex;
+    
   }
   .name{
     font-size: 26px;
+    padding-left: 10px;
     font-weight:bold;
   }
   .info{
-    padding-left: 50px;
+    padding-left: 3%;
   }
 
   .imag{
     padding-top: 20px;
-    padding-left: 10px;
+    padding-left: 5px;
   }
   .main-photo{
     transition: transform .2s; /* Animation */
@@ -155,6 +146,7 @@
 }
   .job{
     font-size: 20px;
+    padding-left: 10px;
   }
 
 
@@ -163,6 +155,7 @@ img{
     height: 170px;
     object-fit: cover;
     align-self: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.20);
 }
 
 
@@ -173,6 +166,7 @@ img{
     height: 50px;
     border-radius: 15px;
     border-color: transparent;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.20);
 }
 .link:hover{
     background: radial-gradient(
@@ -193,6 +187,7 @@ img{
     height: 50px;
     border-radius: 15px;
     border-color: transparent;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.20);
 }
 .git:hover{
     background: radial-gradient(
@@ -217,5 +212,10 @@ img{
 
 .flex{
   display:flex;
+  flex-wrap: wrap;
+  padding-left: 5%;
+  padding-bottom: 5%;
 }
+
+
 </style>

@@ -86,7 +86,8 @@ const unsubscribe = onSnapshot(colRef, (querySnapshot) => {
   width: 600px;
   border-radius: 25px;
   margin-left: 100px;
-  margin-bottom: 30px;  
+  margin-bottom: 30px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.10);  
   }
 
 

@@ -12,8 +12,8 @@
         <img src={Logo} class = "nav-link "alt="download icon"/></nav>
 
         <ul class="nav-list nav_list-inline" id="list">
-            <a href = "/" class="nav-item">
-                <a href="/" class="nav-link">Home</a>
+            <a href = "/dashboard" class="nav-item">
+                <a href="/dashboard" class="nav-link">Home</a>
             </a>
             <a href = "/journal" class="nav-item">
                 <a href="/journal" class="nav-link">Journal</a> 
