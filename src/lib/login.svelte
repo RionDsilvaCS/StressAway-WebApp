@@ -8,6 +8,7 @@
      let isNewUser = false;
      let error = false;
      async function handleSubmit() {
+		console.log(email, pass);
 		try {
 			if (!isNewUser && email != '' && pass != '') {
 				await authHandler.login(email, pass);
