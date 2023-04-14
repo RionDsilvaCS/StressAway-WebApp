@@ -21,11 +21,8 @@
             <a href = "/about" class="nav-item">
                 <a href="/about" class="nav-link">About</a>
             </a>
-            <a href = "/contactus" class="nav-item">
-                <a href="/contactus" class="nav-link">Contact Us</a>
-            </a>
-            <a href = "/login" class="nav-item">
-              <a href="/login" class="nav-link">LogIn/SignUp</a>
+            <a href = "/signin" class="nav-item">
+              <a href="/signin" class="nav-link">LogIn/SignUp</a>
             </a>
             <div class="active"></div>
         </ul>

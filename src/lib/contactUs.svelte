@@ -216,6 +216,4 @@ img{
   padding-left: 5%;
   padding-bottom: 5%;
 }
-
-
 </style>

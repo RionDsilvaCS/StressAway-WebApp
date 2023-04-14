@@ -1,7 +1,7 @@
 <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
 <div class="How">
-    <h2>How it started ?</h2></div>
-    <div class="How2">   <p>Covid 19 pandemic has a severe impact on global mental health leading to a significant increase in anxiety and depression cases. This is a serious issue because it affects an individual’s daily life and relationships but also has long-term consequences for their physical health and well-being.
+    <h2 class="paragraph"><span style="--d: .05s">How it started ?</span></h2></div>
+    <div class="How2">  <p class = "paragraph"><span style="--d: .05s">Covid 19 pandemic has a severe impact on global mental health leading to a significant increase in anxiety and depression cases. This is a serious issue because it affects an individual’s daily life and relationships but also has long-term consequences for their physical health and well-being.
         <br><br>
         Mental health is a critical aspect of overall health and well-being and it is essential to address this issue in order to support individuals and communities in order to overcome the challenges posed by the pandemic.
         <br><br>
@@ -9,6 +9,7 @@
         <br><br>
         StressAway is designed to help individuals manage and reduce their stress levels by promoting relaxation and mindfulness. This product can help to create a calming and relaxing atmosphere that reduces stress and promotes relaxation.
         This can be particularly important for individuals who feel overwhelmed or out of control in their daily lives.
+    </span>
     </p>
 </div>
 <div class="Aim">
@@ -48,4 +49,18 @@
         font-size: 118.75%;
         font-family: 'Poppins', sans-serif;
     }
+    .paragraph span {
+	display: block;
+	opacity: 0;
+	animation: reveal 0.5s forwards var(--d);
+}
+@keyframes reveal {
+	from {
+		transform: translateY(20px);
+	}
+	to {
+		opacity: 1;
+		transform: none;
+	}
+}
     </style>
