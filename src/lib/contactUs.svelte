@@ -95,6 +95,9 @@
 
 
 <style>
+
+  
+
       .journaltxt{
   background-color: rgb(214, 255, 221);
   height: 250px;
