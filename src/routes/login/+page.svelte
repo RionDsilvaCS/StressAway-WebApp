@@ -12,10 +12,9 @@
 {:else}
     <Header2/>
 {/if}
-
+<div class="paragraph"><span style="--d: .05s">
 <Login/>
-</span>
-</div>
+</span></div>
 <Footer/>
 
 <style>
