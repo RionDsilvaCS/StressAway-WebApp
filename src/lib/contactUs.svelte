@@ -95,6 +95,9 @@
 
 
 <style>
+
+  
+
       .journaltxt{
   background-color: rgb(214, 255, 221);
   height: 250px;
@@ -216,6 +219,4 @@ img{
   padding-left: 5%;
   padding-bottom: 5%;
 }
-
-
 </style>

@@ -1,4 +1,4 @@
-<script>
+<!-- <script>
   import Avatar1 from "$lib/assets/avatar1.png"
   import Avatar2 from "$lib/assets/avatar2.png"
   import Avatar3 from "$lib/assets/avatar3.jpg"
@@ -117,4 +117,4 @@
         #ff074f 60%) ;
 }
 
-</style>
+</style> -->

@@ -1,19 +1,17 @@
-<script>
+<script> 
     import Header from "$lib/header.svelte";
-    import Mainphoto from "$lib/mainlogo.svelte";
-    import Appadv from "$lib/appAd.svelte";
+    import Login from "$lib/login.svelte";
     import Footer from "$lib/footer.svelte";
 </script>
 
-<slot></slot>
 
 <Header/>
 <div class = "paragraph"> <span style="--d: .05s">
-<Mainphoto/>
-<Appadv/>
+<Login/>
 </span>
 </div>
 <Footer/>
+
 
 <style>
     .paragraph span {
