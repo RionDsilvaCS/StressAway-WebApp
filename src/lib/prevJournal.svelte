@@ -3,14 +3,46 @@
 
 
     import { initializeApp } from "firebase/app";
+    import { getAuth, onAuthStateChanged } from "firebase/auth";
     import { getFirestore, collection, onSnapshot,doc, updateDoc, deleteDoc, addDoc} from "firebase/firestore";
-    import {firebaseConfig} from "$lib/firebaseConfig";
+    import {firebaseConfig, auth} from "$lib/firebaseConfig";
+	import Mainlogo from "./mainlogo.svelte";
 
     const firebaseApp = initializeApp(firebaseConfig);
     
     const db =  getFirestore();
     
-    const colRef = collection(db, "journal");
+    const user = auth.currentUser;
+    
+    // async onAuthStateChanged(auth, (user) => {
+    //   if(user){
+    //     return await user.email;
+    //   }
+    //   else{
+    //     //user is signed out
+    //   }
+    // });
+
+//     async function mail() {
+//   let myPromise = async mailAuth(auth, (user) => {
+//       if(user){
+//         email = user.email;
+//       }
+//       else{
+//         //user is signed out
+//       }
+//     });
+//   return await myPromise;
+// }
+
+
+    let reg = user.email;
+    const firstDotIndex = reg.indexOf(".");
+    const regid = reg.substring(firstDotIndex + 1, firstDotIndex + 10);
+    
+    console.log(regid);
+
+    const colRef = collection(db, regid);
     
     let journal = [ ];
 

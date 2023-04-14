@@ -4,13 +4,12 @@
   import { initializeApp, getApps, getApp } from "firebase/app";
   import { getFirestore, collection, onSnapshot,addDoc  } from "firebase/firestore";
 	import { empty } from "svelte/internal";
-  import {firebaseConfig} from "../firebaseConfig";
+  import {firebaseConfig, auth} from "../firebaseConfig";
   
 
     let  Texti = "";
    
-
-
+  const user = auth.currentUser;
     
     const firebaseApp = getApps().length === 0 ? initializeApp(firebaseConfig) : getApp();
     const db = getFirestore();
@@ -27,8 +26,11 @@
 
     let currentDate =  `${day} ${month}, ${year}`;
     
+    let reg = user.email;
+    const firstDotIndex = reg.indexOf(".");
+    const regid = reg.substring(firstDotIndex + 1, firstDotIndex + 10);
 
-    const colRef = collection(db, "journal")
+    const colRef = collection(db, regid)
 
       async function handleClick() {
         if (Texti.length !== 0){

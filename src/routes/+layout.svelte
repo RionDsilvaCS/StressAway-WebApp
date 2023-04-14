@@ -1,4 +1,4 @@
-<!-- 
+
 <script>
 // @ts-nocheck
 	
@@ -62,6 +62,4 @@
 		flex-direction: column;
 		min-height: 100vh;
 	}
-</style> -->
-
-<slot/>
+</style>

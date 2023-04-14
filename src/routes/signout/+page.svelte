@@ -1,13 +1,13 @@
 <script> 
     import Header from "$lib/header.svelte";
-    import Login from "$lib/login.svelte";
+    import Signout from "$lib/signout.svelte";
     import Footer from "$lib/footer.svelte";
 </script>
 
 
 <Header/>
 <div class = "paragraph"> <span style="--d: .05s">
-<Login/>
+<Signout/>
 </span>
 </div>
 <Footer/>

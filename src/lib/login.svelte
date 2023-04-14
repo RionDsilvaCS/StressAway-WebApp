@@ -38,6 +38,7 @@
 				type="email"
 				name="email"
 				id="email"
+				class="email"
 				placeholder="Email"
 			/>
 		</label>
@@ -63,7 +64,7 @@
 				/>
 			</label>
 		{/if}
-		<button class="saveit" type="submit" on:click={handleSubmit}><span>Submit</span></button>
+		<button class="saveit" type="submit" on:click={handleSubmit}><span>Log In</span></button>
 	</form>
 	<div class="options">
 		<p>OR</p>
