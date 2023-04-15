@@ -16,7 +16,7 @@
         </div>
         <div class="back-grad">
             <span class="bottom-to">
-                <button class="play-button">▶</button>
+                <a style="text-decoration: none" href='https://open.spotify.com/track/0yLdNVWF3Srea0uzk55zFn?si=d56a5da21f2e4e98' target="_blank"><button class="play-button" >▶</button></a>
                 <div>
                     <p class="music-name">Flowers</p>
                     <p class="artist-name">Miley Cyrus</p>
@@ -33,7 +33,8 @@
         </div>
         <div class="back-grad">
             <span class="bottom-to">
-                <button class="play-button">▶</button>
+                <a style="text-decoration: none" href='https://open.spotify.com/track/5nujrmhLynf4yMoMtj8AQF?si=5371d9388c4b4294' target="_blank">
+                <button class="play-button">▶</button></a>
                 <div>
                     <p class="music-name">Levitating</p>
                     <p class="artist-name">Dua Lipa</p>
@@ -50,7 +51,8 @@
         </div>
         <div class="back-grad">
             <span class="bottom-to">
-                <button class="play-button">▶</button>
+                <a style="text-decoration: none" href='https://open.spotify.com/track/0VjIjW4GlUZAMYd2vXMi3b?si=17c4a7b697ba47df' target="_blank">
+                <button class="play-button">▶</button></a>
                 <div>
                     <p class="music-name">Blinding Lights</p>
                     <p class="artist-name">The Weeknd</p>
@@ -67,7 +69,8 @@
         </div>
         <div class="back-grad">
             <span class="bottom-to">
-                <button class="play-button">▶</button>
+                <a style="text-decoration: none" href='https://open.spotify.com/track/0tgVpDi06FyKpA1z0VMD4v?si=eef29aa093804dc8' target="_blank">
+                <button class="play-button">▶</button></a>
                 <div>
                     <p class="music-name">Perfect</p>
                     <p class="artist-name">Ed Sheeran</p>

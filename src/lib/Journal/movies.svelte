@@ -45,7 +45,8 @@
         </div>
         <div class="back-grad">
             <span class="bottom-to">
-                <button class="play-button">▶</button>
+                <a style="text-decoration: none" href='https://www.primevideo.com/dp/amzn1.dv.gti.86ac5a22-9d17-8aa7-f8ff-b8983b16b634?autoplay=0&ref_=atv_cf_strg_wb' target="_blank">
+                <button class="play-button">▶</button></a>
                 <div>
                     <p class="movie-name">Forrest Gump</p>
                     <p class="director-name">Robert Zemeckis</p>
@@ -62,7 +63,8 @@
         </div>
         <div class="back-grad">
             <span class="bottom-to">
-                <button class="play-button">▶</button>
+                <a style="text-decoration: none" href='https://www.primevideo.com/dp/amzn1.dv.gti.2eae477d-6ccb-b130-6467-df6a5ed22dbc?autoplay=0&ref_=atv_cf_strg_wb' target="_blank">
+                <button class="play-button">▶</button></a>
                 <div>
                     <p class="movie-name">Harry Potter</p>
                     <p class="director-name">David Yates</p>
@@ -79,7 +81,8 @@
         </div>
         <div class="back-grad">
             <span class="bottom-to">
-                <button class="play-button">▶</button>
+                <a style="text-decoration: none" href='https://www.hotstar.com/in/movies/avatar/1770000948/watch?utm_source=gwa' target="_blank">
+                <button class="play-button">▶</button></a>
                 <div>
                     <p class="movie-name">Avatar</p>
                     <p class="director-name">James Cameron</p>
@@ -96,7 +99,8 @@
         </div>
         <div class="back-grad">
             <span class="bottom-to">
-                <button class="play-button">▶</button>
+                <a style="text-decoration: none" href='https://www.primevideo.com/dp/amzn1.dv.gti.c2bbd7e4-f36d-4d9f-3b9e-79114e396281?autoplay=0&ref_=atv_cf_strg_wb' target="_blank">
+                <button class="play-button">▶</button></a>
                 <div>
                     <p class="movie-name">John Wick</p>
                     <p class="director-name">Chad Stahelski</p>
