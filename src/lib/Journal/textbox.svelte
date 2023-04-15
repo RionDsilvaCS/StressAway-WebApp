@@ -8,8 +8,8 @@
   
 
     let  Texti = "";
-   
-  const user = auth.currentUser;
+
+    const user = auth.currentUser;
     
     const firebaseApp = getApps().length === 0 ? initializeApp(firebaseConfig) : getApp();
     const db = getFirestore();
@@ -26,11 +26,13 @@
 
     let currentDate =  `${day} ${month}, ${year}`;
     
-    let reg = user.email;
-    const firstDotIndex = reg.indexOf(".");
-    const regid = reg.substring(firstDotIndex + 1, firstDotIndex + 10);
+    // let reg = user.email;
+    // const firstDotIndex = reg.indexOf(".");
+    // const regid = reg.substring(firstDotIndex + 1, firstDotIndex + 10);
+    
+    // console.log(regid);
 
-    const colRef = collection(db, regid)
+    const colRef = collection(db, "21bce7948");
 
       async function handleClick() {
         if (Texti.length !== 0){
@@ -44,7 +46,7 @@
     }
 
 
-    
+    // value="Reload Page" onClick="window.location.reload(true)"
 
 
 
@@ -87,6 +89,7 @@
   border-radius: 25px;
   padding-top: 40px;
   padding-right: 40px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.10);  
   padding-bottom: 40px;
   }
   
@@ -124,6 +127,7 @@
   border-radius: 10px;
   box-shadow: 0 5px 15px rgba(0,0,0,0.20);
   font-family: "Poppins",sans-serif;
+  
 }
 
 .saveit span {

@@ -6,13 +6,20 @@
     import { getAuth, onAuthStateChanged } from "firebase/auth";
     import { getFirestore, collection, onSnapshot,doc, updateDoc, deleteDoc, addDoc} from "firebase/firestore";
     import {firebaseConfig, auth} from "$lib/firebaseConfig";
-	import Mainlogo from "./mainlogo.svelte";
 
     const firebaseApp = initializeApp(firebaseConfig);
     
     const db =  getFirestore();
     
     const user = auth.currentUser;
+
+    let reg = user.email;
+    const firstDotIndex = reg.indexOf(".");
+    const regid = reg.substring(firstDotIndex + 1, firstDotIndex + 10);
+    
+    console.log(regid);
+
+    const colRef = collection(db, regid);
     
     // async onAuthStateChanged(auth, (user) => {
     //   if(user){
@@ -36,13 +43,7 @@
 // }
 
 
-    let reg = user.email;
-    const firstDotIndex = reg.indexOf(".");
-    const regid = reg.substring(firstDotIndex + 1, firstDotIndex + 10);
     
-    console.log(regid);
-
-    const colRef = collection(db, regid);
     
     let journal = [ ];
 
