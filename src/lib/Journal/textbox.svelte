@@ -2,37 +2,38 @@
 // @ts-nocheck
 
   import { initializeApp, getApps, getApp } from "firebase/app";
-  import { getFirestore, collection, onSnapshot,addDoc  } from "firebase/firestore";
+  import { getFirestore, collection, onSnapshot,addDoc, updateDoc, setDoc  } from "firebase/firestore";
 	import { empty } from "svelte/internal";
   import {firebaseConfig, auth} from "../firebaseConfig";
   
 
     let  Texti = "";
+  
 
-    const user = auth.currentUser;
     
     const firebaseApp = getApps().length === 0 ? initializeApp(firebaseConfig) : getApp();
     const db = getFirestore();
     const monthNames = ["January", "February", "March", "April", "May", "June",
-  "July", "August", "September", "October", "November", "December"
-];
+    "July", "August", "September", "October", "November", "December"
+  ];
+  
+  const date = new Date();
+  let day = date.getDate();
+  let month = monthNames[date.getMonth()];
+  let year = date.getFullYear();
 
-    const date = new Date();
-    let day = date.getDate();
-    let month = monthNames[date.getMonth()];
-    let year = date.getFullYear();
-
+  const user = auth.currentUser;
 
 
     let currentDate =  `${day} ${month}, ${year}`;
     
-    // let reg = user.email;
-    // const firstDotIndex = reg.indexOf(".");
-    // const regid = reg.substring(firstDotIndex + 1, firstDotIndex + 10);
-    
-    // console.log(regid);
+    const userEmail = "puneeth.21bce7948@vitstudent.ac.in" ;
+    console.log(userEmail);
+    const firstDotIndex = userEmail.indexOf(".");
+    const regid = userEmail.substring(firstDotIndex + 1, firstDotIndex + 10);
+    console.log(regid);
 
-    const colRef = collection(db, "21bce7948");
+    const colRef = collection(db, regid);
 
       async function handleClick() {
         if (Texti.length !== 0){
@@ -40,6 +41,9 @@
           await addDoc(colRef, {
           content: Texti,
           date : currentDate
+        //   await setDoc(colRef, {
+        //     content : Texti,
+        //     date : currentDate
         });
     }
     
