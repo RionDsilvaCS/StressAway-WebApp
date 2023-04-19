@@ -34,29 +34,7 @@
   </div>
 
 
-  <div class="journaltxt">
-    <nav class="container2">
-      <div class = "imag">
-        <img src={Avatar3} class="main-photo"alt="logo">
-      </div>
-      <div class="info">
-        <p class="name">G Aniesh Reddy</p>
-        <p class = "job">Web Developer</p>
-        <nav class = "social">
-          <div class = "gap">
-            <form action="https://www.linkedin.com/in/puneeth-reddy-75069824b/" target="_blank">
-              <button class="link">
-                <span class="link-name">LinkedIn</span>
-              </button>
-            </form>
-          </div>
-          <form action="https://github.com/puneethx" target="_blank">
-            <button class="git"><span class="git-name">Github</span></button>
-          </form>
-        </nav>
-      </div>
-    </nav>
-  </div>
+
 
 
 <div class="journaltxt">

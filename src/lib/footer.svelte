@@ -57,18 +57,6 @@
                 </ul>
             </div>
 
-            <div class="foote">
-                <h6 class="footer__title">Aniesh Reddy</h6>
-                <h3 class="contribution3"> Web Developer</h3>
-                <ul class="footer__list3">
-                    <li class="footer__list-item">
-                        <a href="https://www.linkedin.com/in/aniesh-reddy-gundam-016365232/" class="footer__list-link">LinkedIn</a>
-                    </li>
-                    <li class="footer__list-item">
-                        <a href="https://github.com/Aniesh04" class="footer__list-link">Github</a>
-                    </li>
-                </ul>
-            </div>
         </div>
     </div>
 </footer>
@@ -80,9 +68,7 @@
 .foot{
     padding-top:10%;
 }
-.foote{
-    padding-top:10%;
-}
+
 .footer {
     background-color: #151823;
     color: #666873;
@@ -106,10 +92,6 @@
     font-size: 100%;
     padding-left: 15%;
 }
-.contribution3{
-    font-size: 100%;
-    padding-left: 12%;
-}
 .footer__top {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
@@ -132,12 +114,7 @@
     gap: 2rem;
     padding-left: 25%;
 }
-.footer__list3 {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    padding-left: 20%;
-}
+
 .footer__list-item {
     list-style: none;
 }
